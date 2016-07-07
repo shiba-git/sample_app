@@ -41,10 +41,7 @@ GEM
     binding_of_caller (0.7.3.pre1)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
-    byebug (3.4.0)
-      columnize (~> 0.8)
-      debugger-linecache (~> 1.2)
-      slop (~> 3.6)
+    byebug (9.0.5)
     coderay (1.1.1)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
@@ -53,13 +50,11 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
-    columnize (0.9.0)
     concurrent-ruby (1.0.2)
     debug_inspector (0.0.2)
-    debugger-linecache (1.2.0)
     erubis (2.7.0)
     execjs (2.7.0)
-    ffi (1.9.10)
+    ffi (1.9.13)
     formatador (0.2.5)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
@@ -202,7 +197,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug (= 3.4.0)
+  byebug
   coffee-rails (= 4.1.0)
   guard-minitest (= 2.3.1)
   jbuilder (= 2.2.3)
